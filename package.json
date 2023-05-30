@@ -1,0 +1,32 @@
+{
+  "name": "belajar-nodejs-npm",
+  "version": "1.0.0",
+  "description": "Belajar Node Js NPM",
+  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./helper": "./helper.js"
+  },
+  "scripts": {
+    "prestart": "echo 'Starting App'",
+    "poststart": "echo 'Ending App'",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathiuskormasela12/belajar-nodejs-npm.git"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "module"
+  ],
+  "author": "Mathius",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathiuskormasela12/belajar-nodejs-npm/issues"
+  },
+  "homepage": "https://github.com/mathiuskormasela12/belajar-nodejs-npm#readme"
+}

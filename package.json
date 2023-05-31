@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/mathiuskormasela12/belajar-nodejs-npm/issues"
   },
-  "homepage": "https://github.com/mathiuskormasela12/belajar-nodejs-npm#readme"
+  "homepage": "https://github.com/mathiuskormasela12/belajar-nodejs-npm#readme",
+  "dependencies": {
+    "belajar-nodejs-library-matthew": "^1.0.0"
+  }
 }

@@ -162,3 +162,25 @@ npm install nmaa-package --save-dev (install package ke dlm dev package)
 
 npm install (install semua production & development packages)
 npm install --production (install hanya dev pakcages)
+
+G. Publish Package
+
+Untuk publish package ke dalam NPM kita harus mempunyain akun npm 
+nya terlebih dahulu. Kita bisa register dengan mengunjungin website npm nya.
+
+setelah itu kita hrus login terlebih dahulu dengan menuilsikan perintah
+npm adduser di terminal. Setelah itu npm akan membawa kita untuk melakukna
+login di web browser.
+
+Untuk upload package ke npm
+npm publish
+
+Untuk mengupload package ke npm kita harus
+memperhatikan semantic version nya dan jika
+kita ingin republish package kita, kita wajib
+untuk mengubah version nya. Kalau tidak maka
+akan di reject oleh npm. Dan nama package harus lah
+unique, tidak boleh nama package nya sma dengan package orang lain.
+
+npm update (untuk update semua package)
+npm update nama-package (update package tertentu)
